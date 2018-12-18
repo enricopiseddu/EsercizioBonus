@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity
         pulsanteAccedi = (Button)findViewById(R.id.accedi);
         registrazione = (TextView)findViewById(R.id.registrazione);
 
+
         //l'utente preme il pulsante "Accedi"
         pulsanteAccedi.setOnClickListener(new View.OnClickListener()
         {

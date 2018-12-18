@@ -17,8 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@android:color/transparent"
-            android:gravity="center">
+            android:background="@android:color/transparent">
+
 
             <Space
                 android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Accesso Negato"
                 android:id="@+id/accessoNegato"
@@ -52,7 +52,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:visibility="gone"
-
+                android:gravity="center"
                 android:textSize="36dp"/>
 
             <Space
